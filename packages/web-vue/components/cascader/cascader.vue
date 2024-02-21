@@ -590,6 +590,7 @@ export default defineComponent({
       tagProps: 'tagProps',
       render: 'render',
       isLeaf: 'isLeaf',
+      selectionDisabled: 'selectionDisabled'
     };
 
     const mergedFieldNames = computed(() => ({

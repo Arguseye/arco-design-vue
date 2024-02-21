@@ -58,7 +58,7 @@ export const getOptionInfos = (
         value,
         label: item[fieldNames.label] ?? String(value),
         disabled: Boolean(item[fieldNames.disabled]),
-        selectionDisabled: false,
+        selectionDisabled: item[fieldNames.selectionDisabled],
         render: item[fieldNames.render],
         tagProps: item[fieldNames.tagProps],
         isLeaf: item[fieldNames.isLeaf],

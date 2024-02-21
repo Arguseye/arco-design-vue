@@ -29,6 +29,11 @@ export interface CascaderOption {
    */
   disabled?: boolean;
   /**
+   * @zh 多选模式下是否可选择
+   * @en Whether to selectable in multiple mode
+   */
+  selectionDisabled?: boolean;
+  /**
    * @zh 展示的标签属性
    * @en Displayed tag attributes
    * @version 2.8.0
